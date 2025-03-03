@@ -1,0 +1,6 @@
+framework module SwiftLogger {
+  umbrella header "SwiftLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

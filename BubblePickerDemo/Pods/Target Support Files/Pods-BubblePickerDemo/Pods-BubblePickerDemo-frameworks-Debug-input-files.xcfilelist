@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-BubblePickerDemo/Pods-BubblePickerDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BubblePicker/BubblePicker.framework
+${BUILT_PRODUCTS_DIR}/SwiftLogger/SwiftLogger.framework

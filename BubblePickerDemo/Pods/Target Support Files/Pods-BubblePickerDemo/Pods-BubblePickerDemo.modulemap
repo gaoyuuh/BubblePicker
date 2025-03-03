@@ -1,0 +1,6 @@
+framework module Pods_BubblePickerDemo {
+  umbrella header "Pods-BubblePickerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

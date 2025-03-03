@@ -1,0 +1,22 @@
+PODS:
+  - BubblePicker (0.1.0):
+    - SwiftLogger
+  - SwiftLogger (0.1.0)
+
+DEPENDENCIES:
+  - BubblePicker (from `../BubblePicker`)
+  - SwiftLogger (from `../SwiftLogger/`)
+
+EXTERNAL SOURCES:
+  BubblePicker:
+    :path: "../BubblePicker"
+  SwiftLogger:
+    :path: "../SwiftLogger/"
+
+SPEC CHECKSUMS:
+  BubblePicker: 1cd1762fcce84426c78414939f35ac3d97bd6a6a
+  SwiftLogger: 08ce1571c42bdd831300422be843be8f861e7a2d
+
+PODFILE CHECKSUM: b7b3a4c6fefdd635177a52a61234b9dffd23bf28
+
+COCOAPODS: 1.16.2
