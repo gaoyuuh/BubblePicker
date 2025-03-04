@@ -3,7 +3,7 @@ BubblePicker with SpriteKit
 
 本项目高仿【牵手】app 选择理想型标签动画效果，仅供学习参考！！！
 
-![Demo](./Images/demo.mov)
+<video src="/Images/demo.mov" />
 
 ### 参考：
 
