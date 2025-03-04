@@ -52,15 +52,17 @@ class BubblePickerContentView: UIView {
     }()
     
     private enum NodeSize: CGFloat {
-        case size152 = 152
+        case size142 = 142, size152 = 152, size162 = 162
         
         static var all: [NodeSize] {
-            [.size152]
+            [.size142, .size152, .size162]
         }
         
         var fontSize: CGFloat {
             switch self {
+            case .size142: return 16
             case .size152: return 18
+            case .size162: return 18
             }
         }
     }
@@ -98,13 +100,13 @@ class BubblePickerContentView: UIView {
         self.bubbleScene.resetNodeBody()
         self.bubbleScene.enableMagneticField(false)
         node.physicsBody?.isDynamic = false
-        let nearPositions = self.bubbleScene.getNearbyNodes(atNode: node)
         node.subNodes.removeAll()
-
+        
+        let nearPositions = self.bubbleScene.getNearbyNodes(atNode: node)
         for (index, item) in array.enumerated() {
-            
             var nearNode: BubblePickerNode? = nil
             var size: NodeSize? = nil
+            // 使 insertNode 与 nearNode size 一致，避免碰撞挤压
             if index < nearPositions.count {
                 nearNode = nearPositions[index]
                 if let nearNode {
@@ -113,6 +115,7 @@ class BubblePickerContentView: UIView {
             }
             
             let insertNode = self.getNode(title: item, size: size)
+            // 设置 insertNode参数，为了更好的动画效果
             insertNode.setScale(0)
             insertNode.physicsBody?.isDynamic = false
             insertNode.zPosition = CGFloat(-10-index)
@@ -126,23 +129,17 @@ class BubblePickerContentView: UIView {
                 moveAction = SKAction.move(to: nearNode.position, duration: 0.4)
                 
                 // nearNode 位移动画
-                var moveX = nearNode.position.x + insertNode.radius + nearNode.radius
-                if nearNode.position.x < node.position.x {
-                    moveX = nearNode.position.x - insertNode.radius - nearNode.radius
-                }
-                let act = SKAction.move(to: CGPoint(x: moveX, y: nearNode.position.y), duration: 0.4)
-                act.timingMode = .easeOut
-                nearNode.run(act)
-                nearNode.physicsBody?.density = 100
+                animateNearNode(nearNode, insertNode: insertNode, node: node)
             }
             
             // 缩放动画
             let waitAction = SKAction.wait(forDuration: 0.1)
-            let scale1 = SKAction.scale(to: 1.1, duration: 0.4)
-            let scale2 = SKAction.scale(to: 1, duration: 0.15)
-            let scaleAction = SKAction.sequence([waitAction, scale1, scale2])
+            let scale = SKAction.scale(to: 1, duration: 0.4)
+            let scaleAction = SKAction.sequence([waitAction, scale])
             
+            // 执行插入 node 动画
             insertNode.run(.group([ moveAction, scaleAction ])) {
+                // 恢复 insertNode 初始值
                 insertNode.physicsBody?.isDynamic = true
                 insertNode.zPosition = 0
                 nearNode?.physicsBody?.density = 1
@@ -152,7 +149,40 @@ class BubblePickerContentView: UIView {
             }
         }
     }
+    
+}
 
+extension BubblePickerContentView: BubblePickerDelegate {
+    
+    /// 选中标签
+    func didSelect(_ scene: BubblePickerScene, node: BubblePickerNode) {
+        self.selectNodeBlock?(node)
+        node.selectedAnimation()
+    }
+    
+    /// 取消选中标签
+    func didDeselect(_ scene: BubblePickerScene, node: BubblePickerNode) {
+        self.deSelectNodeBlock?(node)
+
+        if node.subNodes.count <= 0 {
+            return
+        }
+        
+        self.bubbleScene.resetNodeBody()
+        self.bubbleScene.enableMagneticField(true)
+        node.physicsBody?.isDynamic = false
+        
+        let removeNodes = node.subNodes.filter { !$0.isSelected }
+        for (_, removeNode) in removeNodes.enumerated() {
+            removeNode.removeFromParent()
+        }
+        node.subNodes.removeAll()
+    }
+    
+}
+
+
+private extension BubblePickerContentView {
     
     private func getNode(title: String, size: NodeSize? = nil) -> BubblePickerNode {
         var nodeSize = getRandomNodeSize()
@@ -176,32 +206,17 @@ class BubblePickerContentView: UIView {
     private func getRandomNodeSize() -> NodeSize {
         return NodeSize.all.randomItem()
     }
-
-}
-
-extension BubblePickerContentView: BubblePickerDelegate {
     
-    func didSelect(_ scene: BubblePickerScene, node: BubblePickerNode) {
-        self.selectNodeBlock?(node)
-        node.selectedAnimation()
-    }
-    
-    func didDeselect(_ scene: BubblePickerScene, node: BubblePickerNode) {
-        self.deSelectNodeBlock?(node)
-
-        if node.subNodes.count <= 0 {
-            return
+    /// nearNode 位移动画
+    private func animateNearNode(_ nearNode: BubblePickerNode, insertNode: BubblePickerNode, node: BubblePickerNode) {
+        var moveX = nearNode.position.x + insertNode.radius + nearNode.radius
+        if nearNode.position.x < node.position.x {
+            moveX = nearNode.position.x - insertNode.radius - nearNode.radius
         }
-        
-        self.bubbleScene.resetNodeBody()
-        self.bubbleScene.enableMagneticField(true)
-        node.physicsBody?.isDynamic = false
-        
-        let removeNodes = node.subNodes.filter { !$0.isSelected }
-        for (_, removeNode) in removeNodes.enumerated() {
-            removeNode.removeFromParent()
-        }
-        node.subNodes.removeAll()
+        let act = SKAction.move(to: CGPoint(x: moveX, y: nearNode.position.y), duration: 0.4)
+        act.timingMode = .easeOut
+        nearNode.run(act)
+        nearNode.physicsBody?.density = 100
     }
     
 }
