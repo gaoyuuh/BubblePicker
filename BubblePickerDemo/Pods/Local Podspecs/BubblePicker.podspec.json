@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of BubblePicker.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gaoyu/BubblePicker",
+  "homepage": "https://github.com/gaoyuuh/BubblePicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,11 @@
     "gaoyu": "gyhbsdo@163.com"
   },
   "source": {
-    "git": "https://github.com/gaoyu/BubblePicker.git",
+    "git": "https://github.com/gaoyuuh/BubblePicker.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "BubblePicker/Classes/**/*",
-  "dependencies": {
-    "SwiftLogger": [
-
-    ]
-  }
+  "source_files": "BubblePicker/Classes/**/*"
 }

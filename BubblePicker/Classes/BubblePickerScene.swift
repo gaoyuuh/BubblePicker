@@ -6,7 +6,6 @@
 //
 
 import SpriteKit
-import SwiftLogger
 
 @objc public protocol BubblePickerDelegate: AnyObject {
     func didSelect(_ scene: BubblePickerScene, node: BubblePickerNode)
@@ -84,7 +83,6 @@ public class BubblePickerScene: SKScene {
         if abs(newFrame.origin.x - self.contentFrame.origin.x) > widthDifferenceThreshold ||
             abs(newFrame.width - self.contentFrame.width) > widthDifferenceThreshold {
             self.contentFrame = newFrame
-            SwiftLogger.debug("updateFrame: \(newFrame)")
             
             // 扩容
             if self.contentFrame.width > physicsBodyMaxWidth * 0.75 {
@@ -233,9 +231,7 @@ extension BubblePickerScene {
                 }
                 
                 rootNode.position.x = newPositionX
-                
-                SwiftLogger.debug("change: \(rootNode.position.x)")
-                
+                                
                 velocity = deltaX  // 记录当前的速度
             }
             lastTouchPosition = sceneLocation
@@ -249,9 +245,7 @@ extension BubblePickerScene {
         let decelerationRate: CGFloat = 0.98  // 控制减速效果的快慢
         let minSpeed: CGFloat = 0.5  // 最小速度阈值
         let duration = 1 / 60.0
-        
-        SwiftLogger.debug(velocity)
-        
+                
         if isDragging || abs(velocity) < minSpeed {
             return  // 如果速度很小则停止
         }
@@ -268,9 +262,7 @@ extension BubblePickerScene {
             newPositionX = maxX()
             self.velocity = 0
         }
-        
-        SwiftLogger.debug("end: \(newPositionX)")
-        
+                
         // 应用修正后的位置并执行动画
         let correctedMoveAction = SKAction.moveTo(x: newPositionX, duration: duration)
         self.rootNode.run(correctedMoveAction) {

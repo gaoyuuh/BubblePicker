@@ -21,19 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gaoyu/BubblePicker'
+  s.homepage         = 'https://github.com/gaoyuuh/BubblePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gaoyu' => 'gyhbsdo@163.com' }
-  s.source           = { :git => 'https://github.com/gaoyu/BubblePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gaoyuuh/BubblePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'BubblePicker/Classes/**/*'
-  
-  s.dependency 'SwiftLogger'
-  
+    
   # s.resource_bundles = {
   #   'BubblePicker' => ['BubblePicker/Assets/*.png']
   # }

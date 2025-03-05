@@ -1,22 +1,21 @@
 PODS:
-  - BubblePicker (0.1.0):
-    - SwiftLogger
+  - BubblePicker (0.1.0)
   - SwiftLogger (0.1.0)
 
 DEPENDENCIES:
-  - BubblePicker (from `../BubblePicker`)
+  - BubblePicker (from `../`)
   - SwiftLogger (from `../SwiftLogger/`)
 
 EXTERNAL SOURCES:
   BubblePicker:
-    :path: "../BubblePicker"
+    :path: "../"
   SwiftLogger:
     :path: "../SwiftLogger/"
 
 SPEC CHECKSUMS:
-  BubblePicker: 1cd1762fcce84426c78414939f35ac3d97bd6a6a
+  BubblePicker: 9a37da1d9a6888e642f717be06f14018427ac42d
   SwiftLogger: 08ce1571c42bdd831300422be843be8f861e7a2d
 
-PODFILE CHECKSUM: b7b3a4c6fefdd635177a52a61234b9dffd23bf28
+PODFILE CHECKSUM: a19b61a4acae4711fb27c96b66b0dbc9cdf7717d
 
 COCOAPODS: 1.16.2
