@@ -7,7 +7,7 @@ target 'BubblePickerDemo' do
 
   # Pods for BubblePickerDemo
 
-  pod 'BubblePicker', :path => '../'
+  pod 'SpriteBubblePicker', :path => '../'
   pod 'SwiftLogger', :path => '../SwiftLogger/'
 
 end

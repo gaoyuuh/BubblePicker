@@ -7,7 +7,7 @@
 
 import UIKit
 import SpriteKit
-import BubblePicker
+import SpriteBubblePicker
 
 extension UIImage {
     static let defaultImage: [String] = ["unselect_bubble"]

@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BubblePicker'
-  s.version          = '0.1.0'
+  s.name             = 'SpriteBubblePicker'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of BubblePicker.'
 
 # This description is used to generate tags and improve search results.

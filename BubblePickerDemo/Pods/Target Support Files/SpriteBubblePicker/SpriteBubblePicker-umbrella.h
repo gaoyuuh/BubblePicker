@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double BubblePickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char BubblePickerVersionString[];
+FOUNDATION_EXPORT double SpriteBubblePickerVersionNumber;
+FOUNDATION_EXPORT const unsigned char SpriteBubblePickerVersionString[];
 

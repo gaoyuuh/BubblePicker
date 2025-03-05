@@ -1,0 +1,6 @@
+framework module SpriteBubblePicker {
+  umbrella header "SpriteBubblePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

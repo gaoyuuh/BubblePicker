@@ -7,7 +7,7 @@
 
 import UIKit
 import SwiftLogger
-import BubblePicker
+import SpriteBubblePicker
 import AVFoundation
 
 class BackgroundVideoPlayer {
