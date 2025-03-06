@@ -1,5 +1,5 @@
 PODS:
-  - SpriteBubblePicker (0.1.0)
+  - SpriteBubblePicker (0.2.0)
   - SwiftLogger (0.1.0)
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../SwiftLogger/"
 
 SPEC CHECKSUMS:
-  SpriteBubblePicker: 328d28775d9358fbef9b2d9af234b5f14933ad9e
+  SpriteBubblePicker: e806c526f648d0b1ca53cb78a41bed71032f09a3
   SwiftLogger: 08ce1571c42bdd831300422be843be8f861e7a2d
 
 PODFILE CHECKSUM: 5f89adb01929e1ad70e7c2630039a2d131722f0f

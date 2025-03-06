@@ -7,90 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101C9432250542A294CDB602C601306F /* BubblePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7DD5DF3299F65A9C66D9AF095FAA91 /* BubblePickerView.swift */; };
-		1D9A4B39C885E9EB00D1B20323D5E272 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CCBC0190227FB706C5D5C81115AAA7 /* BaseDestination.swift */; };
-		2B6F4DAC9567A7F0EB358CFDED599FA2 /* BubblePickerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4C3DE77D06A1F72EE6EF15953524C /* BubblePickerNode.swift */; };
-		3ABF66AE188F59FB295D8CCC969243A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		40708FC244402A8B867BDC1536C31094 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CDA8B9E082E0EF68F0B19A1CE0A69 /* SwiftyBeaver.swift */; };
+		1D9A4B39C885E9EB00D1B20323D5E272 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D087394DA1ABFE5F2A273B7FF6C36 /* BaseDestination.swift */; };
+		2DD2E15C6C4844120E5DA43553C6D770 /* SpriteBubblePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1652743617143BB99B5B34F213E8EF64 /* SpriteBubblePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		354F075F18CF64D7EF347DF3D1527815 /* SpriteBubblePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AC96F3C47945244A7B372D2259941 /* SpriteBubblePicker-dummy.m */; };
+		40708FC244402A8B867BDC1536C31094 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905EBF58253ED70AD4AFE9B2950C49AD /* SwiftyBeaver.swift */; };
 		43053FDF3B6F497ED06CFB68659024AC /* Pods-BubblePickerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D81E39ED0A2861FA1148DB8B00BFFD16 /* Pods-BubblePickerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4423CA8DA747BB5D34FF2058B9C56AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		58A06DBDBD0169163E04D1490F4D050D /* SwiftLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5391C1C485A3D4A36BBDB525153DBCB /* SwiftLogger-dummy.m */; };
-		89AA66ED3F178BB836D8F5DCC5D28C1F /* SpriteBubblePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 993D7427DD6593FAEAFFFA6BF31CCB7C /* SpriteBubblePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		989C92C876C0FA6D588CAA2949BAEB9A /* KZLogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9CDF7DA9631AEA30BF21CDF5597B8 /* KZLogDestination.swift */; };
-		A9ABC794E88F67BAB4A438D5ECC13FD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AC23D7E92A1DAE3A237CDBC85A6CA2 /* Extensions.swift */; };
-		C255CD94065CF1DDDD3690A22A5AB70D /* SpriteBubblePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D3A8C765B61EE57EF9672A525F9ED /* SpriteBubblePicker-dummy.m */; };
-		C387D185845E3794068B6544B9260449 /* FilterValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60081DC8B150543240EFC93654752038 /* FilterValidator.swift */; };
-		C6D121F15B5706912C9B1F772A6DBC11 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F151A21EDDDF5ED80F3120542EB3BDA /* Filter.swift */; };
-		D52C7381986D1D7071CE7942C3F918DE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82D0D45004B8914ACFDB17EB1EE885 /* Logger.swift */; };
+		58A06DBDBD0169163E04D1490F4D050D /* SwiftLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8DB2311DFCFD7605FFEA1E5FF36F7 /* SwiftLogger-dummy.m */; };
+		5DF945215D18AACF25A178DA1941D614 /* BubblePickerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3D62986EC4D15C5CA9EDB8B50BA6F /* BubblePickerScene.swift */; };
+		84583088C46238A9E35DF60B529B2C8D /* BubblePickerLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD639D864284E6B60637907B068A438A /* BubblePickerLabelNode.swift */; };
+		851E325EAB822B61CF2B36425F6C1E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		8727C7B082C008D7B21E754EF4352606 /* BubblePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D8849749C4D5BCE0D3E6712B16609 /* BubblePickerView.swift */; };
+		989C92C876C0FA6D588CAA2949BAEB9A /* KZLogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CB0D3068245EB35B72FEAD318137E /* KZLogDestination.swift */; };
+		A9ABC794E88F67BAB4A438D5ECC13FD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2A52F09392527BCC8319DAB729478 /* Extensions.swift */; };
+		C387D185845E3794068B6544B9260449 /* FilterValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0688D5F75B3F5C101284B9021A3A7F /* FilterValidator.swift */; };
+		C6D121F15B5706912C9B1F772A6DBC11 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AB4DE71473DEB0BF5D0265F9C10398 /* Filter.swift */; };
+		D52C7381986D1D7071CE7942C3F918DE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EE4B53A5049C1120D63F67A5D32AD /* Logger.swift */; };
 		D8F1CF5FDFED499BA65207DE57BDD25F /* Pods-BubblePickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFED4FDE3C9C32C2B6DC0F7B12887B3 /* Pods-BubblePickerDemo-dummy.m */; };
-		E47E10C4EB2E37D33661ED03BA4C3F40 /* BubblePickerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637D5753BD61EBC7B30194E4C2A69E /* BubblePickerScene.swift */; };
+		E6905A5D54FEA8E6A28D07C4BE5D09FD /* BubblePickerScene+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC59DE6E61AA1C657E135B7D846E3AC /* BubblePickerScene+Animate.swift */; };
+		EAC9E41D0D87084C65C25201ACF81558 /* BubblePickerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B2EBD95E86B41C801637F829D437BF /* BubblePickerNode.swift */; };
 		EAEEC9A27B8C4DE13402C20E53F9A29D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		F0C88293C9036E0F9B742C1D3F1049FD /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C523901C3001DCF35187F42EE3FEC48 /* ConsoleDestination.swift */; };
-		F6B15BF1AB4EB29988793D1869BCA779 /* SwiftLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA8FA9FBF626DB0CF16CE7D91AA259E /* SwiftLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8E8C14B87193FD0667A90F983160339 /* BubblePickerLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFE91D7A8E19A98146FCC370C069F /* BubblePickerLabelNode.swift */; };
+		F0C88293C9036E0F9B742C1D3F1049FD /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33146181001097219DC5E29680246BD7 /* ConsoleDestination.swift */; };
+		F6B15BF1AB4EB29988793D1869BCA779 /* SwiftLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA035FA055BCADB3A8817FFE69CF1BD1 /* SwiftLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		086323CF855C90557C0A11A6C04C2C64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E6DA1B7311FF96C1EA57DBDA2D14754;
-			remoteInfo = SwiftLogger;
-		};
-		F07A7585F1BF3CFA9F7F389AC2227A41 /* PBXContainerItemProxy */ = {
+		25110B598067C899BFAFAFAAC132903E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CE06819C7D917F014E538B19CED8DB0;
 			remoteInfo = SpriteBubblePicker;
 		};
+		861545C75CC3DF1860E03E8A1E320D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6DA1B7311FF96C1EA57DBDA2D14754;
+			remoteInfo = SwiftLogger;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007651C60B2D1313A64CD3FB461547A3 /* SpriteBubblePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpriteBubblePicker.modulemap; sourceTree = "<group>"; };
 		03865789AA3AF5DAB68194CB0954A426 /* Pods-BubblePickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubblePickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		09773FD4E3A94C8F82790858A9A7CC25 /* SpriteBubblePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpriteBubblePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		116BB34202802CD52F1BC7A10D56512E /* SpriteBubblePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpriteBubblePicker.release.xcconfig; sourceTree = "<group>"; };
-		1B0BF92D88FF6667F662B9B11D845D1F /* SwiftLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftLogger-Info.plist"; sourceTree = "<group>"; };
-		1C523901C3001DCF35187F42EE3FEC48 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		1652743617143BB99B5B34F213E8EF64 /* SpriteBubblePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteBubblePicker-umbrella.h"; sourceTree = "<group>"; };
 		221EE6AF64F8C2DE0E9F52C7839765BF /* SwiftLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftLogger; path = SwiftLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EF4C3DE77D06A1F72EE6EF15953524C /* BubblePickerNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerNode.swift; path = BubblePicker/Classes/BubblePickerNode.swift; sourceTree = "<group>"; };
-		30AC23D7E92A1DAE3A237CDBC85A6CA2 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		32B4EADB6949C58125583700AF048A02 /* Pods-BubblePickerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubblePickerDemo-Info.plist"; sourceTree = "<group>"; };
+		33146181001097219DC5E29680246BD7 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		371A47873E905645F5CB159D20B8557F /* SwiftLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37960662D858F15C5E6797529A0742CD /* SwiftLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLogger.release.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BFED4FDE3C9C32C2B6DC0F7B12887B3 /* Pods-BubblePickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubblePickerDemo-dummy.m"; sourceTree = "<group>"; };
 		3C83EFB3A3CC3637D55061A8879E220B /* Pods-BubblePickerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BubblePickerDemo"; path = Pods_BubblePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7BFE91D7A8E19A98146FCC370C069F /* BubblePickerLabelNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerLabelNode.swift; path = BubblePicker/Classes/BubblePickerLabelNode.swift; sourceTree = "<group>"; };
+		3F5D8849749C4D5BCE0D3E6712B16609 /* BubblePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerView.swift; path = BubblePicker/Classes/BubblePickerView.swift; sourceTree = "<group>"; };
+		4BB3D62986EC4D15C5CA9EDB8B50BA6F /* BubblePickerScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerScene.swift; path = BubblePicker/Classes/BubblePickerScene.swift; sourceTree = "<group>"; };
+		50961BBC6140C7F829B177A3049D21FF /* SpriteBubblePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpriteBubblePicker.modulemap; sourceTree = "<group>"; };
 		5E82FF33C2669327461FF1B7E4B3E45E /* Pods-BubblePickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubblePickerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		5F151A21EDDDF5ED80F3120542EB3BDA /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		60081DC8B150543240EFC93654752038 /* FilterValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterValidator.swift; sourceTree = "<group>"; };
-		60F4406BC645B7E4B89C894826A5BA43 /* SwiftLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		62F429E3128AF98A6A38C0309F5CA573 /* SwiftLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLogger.release.xcconfig; sourceTree = "<group>"; };
-		67CCBC0190227FB706C5D5C81115AAA7 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
-		6F82A024184A2409CE87FEBB36724628 /* SpriteBubblePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteBubblePicker-prefix.pch"; sourceTree = "<group>"; };
+		688DBCC7879DC948574DDAF03E34E225 /* SwiftLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftLogger.modulemap; sourceTree = "<group>"; };
+		6A0AC96F3C47945244A7B372D2259941 /* SpriteBubblePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpriteBubblePicker-dummy.m"; sourceTree = "<group>"; };
+		70AB4DE71473DEB0BF5D0265F9C10398 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		714D087394DA1ABFE5F2A273B7FF6C36 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
+		7194A3238B0A28A682C0B7A8240DF22F /* SwiftLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogger-prefix.pch"; sourceTree = "<group>"; };
+		744D9BA0B89E20726FE98F0FD12F866B /* SpriteBubblePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteBubblePicker-prefix.pch"; sourceTree = "<group>"; };
 		7B094B3EF511854651F8F5533A20A3AD /* SpriteBubblePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpriteBubblePicker; path = SpriteBubblePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92920512F144C0A7BB7CF8A05306A7E5 /* SwiftLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftLogger.modulemap; sourceTree = "<group>"; };
-		95F9CDF7DA9631AEA30BF21CDF5597B8 /* KZLogDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KZLogDestination.swift; path = SwiftLogger/Classes/KZLogDestination.swift; sourceTree = "<group>"; };
-		993D7427DD6593FAEAFFFA6BF31CCB7C /* SpriteBubblePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpriteBubblePicker-umbrella.h"; sourceTree = "<group>"; };
+		7CC59DE6E61AA1C657E135B7D846E3AC /* BubblePickerScene+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BubblePickerScene+Animate.swift"; path = "BubblePicker/Classes/BubblePickerScene+Animate.swift"; sourceTree = "<group>"; };
+		7DB72D88A0A821D8F12BA1E8E1D528AA /* SpriteBubblePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpriteBubblePicker.debug.xcconfig; sourceTree = "<group>"; };
+		905EBF58253ED70AD4AFE9B2950C49AD /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver.swift; sourceTree = "<group>"; };
+		92B2EBD95E86B41C801637F829D437BF /* BubblePickerNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerNode.swift; path = BubblePicker/Classes/BubblePickerNode.swift; sourceTree = "<group>"; };
+		94C9E6E1715D36F04D34C4FE7B20E5F3 /* SpriteBubblePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpriteBubblePicker-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F82D0D45004B8914ACFDB17EB1EE885 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = SwiftLogger/Classes/Logger.swift; sourceTree = "<group>"; };
-		A4AA6DAAFC2B29CA4430ADC7075A035F /* SwiftLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogger-prefix.pch"; sourceTree = "<group>"; };
-		A5391C1C485A3D4A36BBDB525153DBCB /* SwiftLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLogger-dummy.m"; sourceTree = "<group>"; };
-		A55D3A8C765B61EE57EF9672A525F9ED /* SpriteBubblePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpriteBubblePicker-dummy.m"; sourceTree = "<group>"; };
+		AD639D864284E6B60637907B068A438A /* BubblePickerLabelNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerLabelNode.swift; path = BubblePicker/Classes/BubblePickerLabelNode.swift; sourceTree = "<group>"; };
+		B1ECB24D0138A681A3591CF1E52B4272 /* SpriteBubblePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpriteBubblePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B53DA948027C8889B543FAB970CEBA16 /* Pods-BubblePickerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BubblePickerDemo.modulemap"; sourceTree = "<group>"; };
+		B5E52986C7416C2FEF20807E6731AF0B /* SwiftLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLogger.debug.xcconfig; sourceTree = "<group>"; };
 		BDA01C11837F63C1C3AB7D848CA4D4E7 /* Pods-BubblePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubblePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CCA8FA9FBF626DB0CF16CE7D91AA259E /* SwiftLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogger-umbrella.h"; sourceTree = "<group>"; };
-		CF7DD5DF3299F65A9C66D9AF095FAA91 /* BubblePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerView.swift; path = BubblePicker/Classes/BubblePickerView.swift; sourceTree = "<group>"; };
-		D24F66B5F4804485A63C93B789F5D387 /* SwiftLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLogger.debug.xcconfig; sourceTree = "<group>"; };
-		D7F6006CA0D3E13679EBE2711D8A483B /* SpriteBubblePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpriteBubblePicker-Info.plist"; sourceTree = "<group>"; };
+		C2F4C3FA4CC2C1BFEC4D41BABAD09230 /* SwiftLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftLogger-Info.plist"; sourceTree = "<group>"; };
+		CA035FA055BCADB3A8817FFE69CF1BD1 /* SwiftLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLogger-umbrella.h"; sourceTree = "<group>"; };
+		CED8DB2311DFCFD7605FFEA1E5FF36F7 /* SwiftLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLogger-dummy.m"; sourceTree = "<group>"; };
+		CF0688D5F75B3F5C101284B9021A3A7F /* FilterValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterValidator.swift; sourceTree = "<group>"; };
 		D81E39ED0A2861FA1148DB8B00BFFD16 /* Pods-BubblePickerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubblePickerDemo-umbrella.h"; sourceTree = "<group>"; };
-		DD9CDA8B9E082E0EF68F0B19A1CE0A69 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver.swift; sourceTree = "<group>"; };
-		DE637D5753BD61EBC7B30194E4C2A69E /* BubblePickerScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubblePickerScene.swift; path = BubblePicker/Classes/BubblePickerScene.swift; sourceTree = "<group>"; };
-		DE741E6A1CA95F94B6C31A2D004D6B05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA7CB0D3068245EB35B72FEAD318137E /* KZLogDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KZLogDestination.swift; path = SwiftLogger/Classes/KZLogDestination.swift; sourceTree = "<group>"; };
+		DAA2A52F09392527BCC8319DAB729478 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ECEB4FC3E8629E60CF55A88ECEEBC780 /* Pods-BubblePickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubblePickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE8EE4B53A5049C1120D63F67A5D32AD /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = SwiftLogger/Classes/Logger.swift; sourceTree = "<group>"; };
 		F3258A0780ECC5ED1A92168D516DACE1 /* Pods-BubblePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubblePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FFCC009084E1D9D3AB5B78FCCDAE6C6E /* SpriteBubblePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpriteBubblePicker.debug.xcconfig; sourceTree = "<group>"; };
+		F6A126D2CE629A087CF26B432E35E88A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F75F812FB46FB67FFC81D830510489A2 /* SpriteBubblePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpriteBubblePicker.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +104,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE633A82C71804A8E9615ADABAA69CFE /* Frameworks */ = {
+		8E68C1ABDCA41ADE7A2F20583C56A86E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABF66AE188F59FB295D8CCC969243A4 /* Foundation.framework in Frameworks */,
+				851E325EAB822B61CF2B36425F6C1E2F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,17 +123,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10EF61AFCA8B7B5CE4F972DAA472B25F /* SwiftLogger */ = {
+		07BD245DCE7C567BE951EBBEBE9D5E61 /* SpriteBubblePicker */ = {
 			isa = PBXGroup;
 			children = (
-				95F9CDF7DA9631AEA30BF21CDF5597B8 /* KZLogDestination.swift */,
-				9F82D0D45004B8914ACFDB17EB1EE885 /* Logger.swift */,
-				5B05B6BAFF6CBEE57810E8B234CD7774 /* Pod */,
-				4F778399665304C027B6A3590DCCFD74 /* Support Files */,
-				AB3336AB1E30ADCA0277787B39159703 /* SwiftyBeaver */,
+				AD639D864284E6B60637907B068A438A /* BubblePickerLabelNode.swift */,
+				92B2EBD95E86B41C801637F829D437BF /* BubblePickerNode.swift */,
+				4BB3D62986EC4D15C5CA9EDB8B50BA6F /* BubblePickerScene.swift */,
+				7CC59DE6E61AA1C657E135B7D846E3AC /* BubblePickerScene+Animate.swift */,
+				3F5D8849749C4D5BCE0D3E6712B16609 /* BubblePickerView.swift */,
+				B93B075AD0A66A58AE5CDCD86F076BD6 /* Pod */,
+				4CD38D4745D37191835FCD043CD56D77 /* Support Files */,
 			);
-			name = SwiftLogger;
-			path = ../../SwiftLogger;
+			name = SpriteBubblePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		10FAFEE3783B24DCD36477DC9BC2DF51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07BD245DCE7C567BE951EBBEBE9D5E61 /* SpriteBubblePicker */,
+				EA9EB599FE165A0238B42850542B9929 /* SwiftLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		16F6C154FB4E1D0C52FF95F45F0A5B46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				688DBCC7879DC948574DDAF03E34E225 /* SwiftLogger.modulemap */,
+				CED8DB2311DFCFD7605FFEA1E5FF36F7 /* SwiftLogger-dummy.m */,
+				C2F4C3FA4CC2C1BFEC4D41BABAD09230 /* SwiftLogger-Info.plist */,
+				7194A3238B0A28A682C0B7A8240DF22F /* SwiftLogger-prefix.pch */,
+				CA035FA055BCADB3A8817FFE69CF1BD1 /* SwiftLogger-umbrella.h */,
+				B5E52986C7416C2FEF20807E6731AF0B /* SwiftLogger.debug.xcconfig */,
+				37960662D858F15C5E6797529A0742CD /* SwiftLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../BubblePickerDemo/Pods/Target Support Files/SwiftLogger";
+			sourceTree = "<group>";
+		};
+		24758149AD79DAF902F70B3893F57648 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				714D087394DA1ABFE5F2A273B7FF6C36 /* BaseDestination.swift */,
+				33146181001097219DC5E29680246BD7 /* ConsoleDestination.swift */,
+				DAA2A52F09392527BCC8319DAB729478 /* Extensions.swift */,
+				70AB4DE71473DEB0BF5D0265F9C10398 /* Filter.swift */,
+				CF0688D5F75B3F5C101284B9021A3A7F /* FilterValidator.swift */,
+				905EBF58253ED70AD4AFE9B2950C49AD /* SwiftyBeaver.swift */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftLogger/Classes/SwiftyBeaver;
 			sourceTree = "<group>";
 		};
 		389739ABA89E12894F5AFD2B6DAE0F4B /* Products */ = {
@@ -144,50 +186,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F778399665304C027B6A3590DCCFD74 /* Support Files */ = {
+		4CD38D4745D37191835FCD043CD56D77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92920512F144C0A7BB7CF8A05306A7E5 /* SwiftLogger.modulemap */,
-				A5391C1C485A3D4A36BBDB525153DBCB /* SwiftLogger-dummy.m */,
-				1B0BF92D88FF6667F662B9B11D845D1F /* SwiftLogger-Info.plist */,
-				A4AA6DAAFC2B29CA4430ADC7075A035F /* SwiftLogger-prefix.pch */,
-				CCA8FA9FBF626DB0CF16CE7D91AA259E /* SwiftLogger-umbrella.h */,
-				D24F66B5F4804485A63C93B789F5D387 /* SwiftLogger.debug.xcconfig */,
-				62F429E3128AF98A6A38C0309F5CA573 /* SwiftLogger.release.xcconfig */,
+				50961BBC6140C7F829B177A3049D21FF /* SpriteBubblePicker.modulemap */,
+				6A0AC96F3C47945244A7B372D2259941 /* SpriteBubblePicker-dummy.m */,
+				94C9E6E1715D36F04D34C4FE7B20E5F3 /* SpriteBubblePicker-Info.plist */,
+				744D9BA0B89E20726FE98F0FD12F866B /* SpriteBubblePicker-prefix.pch */,
+				1652743617143BB99B5B34F213E8EF64 /* SpriteBubblePicker-umbrella.h */,
+				7DB72D88A0A821D8F12BA1E8E1D528AA /* SpriteBubblePicker.debug.xcconfig */,
+				F75F812FB46FB67FFC81D830510489A2 /* SpriteBubblePicker.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../BubblePickerDemo/Pods/Target Support Files/SwiftLogger";
+			path = "BubblePickerDemo/Pods/Target Support Files/SpriteBubblePicker";
 			sourceTree = "<group>";
 		};
-		51B258FF7FC92476B69FC4AA9D96361F /* Pod */ = {
+		8DBB9036A99D3CBF728B430DEB3D4F54 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DE741E6A1CA95F94B6C31A2D004D6B05 /* README.md */,
-				09773FD4E3A94C8F82790858A9A7CC25 /* SpriteBubblePicker.podspec */,
+				371A47873E905645F5CB159D20B8557F /* SwiftLogger.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5B05B6BAFF6CBEE57810E8B234CD7774 /* Pod */ = {
+		B93B075AD0A66A58AE5CDCD86F076BD6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				60F4406BC645B7E4B89C894826A5BA43 /* SwiftLogger.podspec */,
+				F6A126D2CE629A087CF26B432E35E88A /* README.md */,
+				B1ECB24D0138A681A3591CF1E52B4272 /* SpriteBubblePicker.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		AB3336AB1E30ADCA0277787B39159703 /* SwiftyBeaver */ = {
-			isa = PBXGroup;
-			children = (
-				67CCBC0190227FB706C5D5C81115AAA7 /* BaseDestination.swift */,
-				1C523901C3001DCF35187F42EE3FEC48 /* ConsoleDestination.swift */,
-				30AC23D7E92A1DAE3A237CDBC85A6CA2 /* Extensions.swift */,
-				5F151A21EDDDF5ED80F3120542EB3BDA /* Filter.swift */,
-				60081DC8B150543240EFC93654752038 /* FilterValidator.swift */,
-				DD9CDA8B9E082E0EF68F0B19A1CE0A69 /* SwiftyBeaver.swift */,
-			);
-			name = SwiftyBeaver;
-			path = SwiftLogger/Classes/SwiftyBeaver;
 			sourceTree = "<group>";
 		};
 		C0F2AD2D356C24D6D7148DAD73DBFA26 /* Targets Support Files */ = {
@@ -198,35 +226,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C87DEB9D9B68278182F83A99D51C6E5F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D662F7E96A329756A9653739337C2C39 /* SpriteBubblePicker */,
-				10EF61AFCA8B7B5CE4F972DAA472B25F /* SwiftLogger */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CE684CB3BC8E1D96CEE7EBA97DD3D06C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				007651C60B2D1313A64CD3FB461547A3 /* SpriteBubblePicker.modulemap */,
-				A55D3A8C765B61EE57EF9672A525F9ED /* SpriteBubblePicker-dummy.m */,
-				D7F6006CA0D3E13679EBE2711D8A483B /* SpriteBubblePicker-Info.plist */,
-				6F82A024184A2409CE87FEBB36724628 /* SpriteBubblePicker-prefix.pch */,
-				993D7427DD6593FAEAFFFA6BF31CCB7C /* SpriteBubblePicker-umbrella.h */,
-				FFCC009084E1D9D3AB5B78FCCDAE6C6E /* SpriteBubblePicker.debug.xcconfig */,
-				116BB34202802CD52F1BC7A10D56512E /* SpriteBubblePicker.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "BubblePickerDemo/Pods/Target Support Files/SpriteBubblePicker";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C87DEB9D9B68278182F83A99D51C6E5F /* Development Pods */,
+				10FAFEE3783B24DCD36477DC9BC2DF51 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				389739ABA89E12894F5AFD2B6DAE0F4B /* Products */,
 				C0F2AD2D356C24D6D7148DAD73DBFA26 /* Targets Support Files */,
@@ -239,20 +243,6 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D662F7E96A329756A9653739337C2C39 /* SpriteBubblePicker */ = {
-			isa = PBXGroup;
-			children = (
-				5D7BFE91D7A8E19A98146FCC370C069F /* BubblePickerLabelNode.swift */,
-				2EF4C3DE77D06A1F72EE6EF15953524C /* BubblePickerNode.swift */,
-				DE637D5753BD61EBC7B30194E4C2A69E /* BubblePickerScene.swift */,
-				CF7DD5DF3299F65A9C66D9AF095FAA91 /* BubblePickerView.swift */,
-				51B258FF7FC92476B69FC4AA9D96361F /* Pod */,
-				CE684CB3BC8E1D96CEE7EBA97DD3D06C /* Support Files */,
-			);
-			name = SpriteBubblePicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		DF638E176B0205E165D66C54F00E6C21 /* Pods-BubblePickerDemo */ = {
@@ -280,6 +270,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EA9EB599FE165A0238B42850542B9929 /* SwiftLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CB0D3068245EB35B72FEAD318137E /* KZLogDestination.swift */,
+				EE8EE4B53A5049C1120D63F67A5D32AD /* Logger.swift */,
+				8DBB9036A99D3CBF728B430DEB3D4F54 /* Pod */,
+				16F6C154FB4E1D0C52FF95F45F0A5B46 /* Support Files */,
+				24758149AD79DAF902F70B3893F57648 /* SwiftyBeaver */,
+			);
+			name = SwiftLogger;
+			path = ../../SwiftLogger;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -291,6 +294,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FB648B71B99642F1F7E9A7BB5361A65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E15C6C4844120E5DA43553C6D770 /* SpriteBubblePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9572BABB44FC798E260312DE19A755E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,25 +310,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BF6BD330AA13B94E41D06FE98D4E4DD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89AA66ED3F178BB836D8F5DCC5D28C1F /* SpriteBubblePicker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7CE06819C7D917F014E538B19CED8DB0 /* SpriteBubblePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A58219844A639CC08ABD058BCCE027B4 /* Build configuration list for PBXNativeTarget "SpriteBubblePicker" */;
+			buildConfigurationList = B17538335F2DC784079D60EBA422117F /* Build configuration list for PBXNativeTarget "SpriteBubblePicker" */;
 			buildPhases = (
-				9BF6BD330AA13B94E41D06FE98D4E4DD /* Headers */,
-				C0009B31BCC20E95B6FF211A9ADD1E7E /* Sources */,
-				AE633A82C71804A8E9615ADABAA69CFE /* Frameworks */,
-				33A0CD7B6748E44741D5DEF5E26E01EB /* Resources */,
+				4FB648B71B99642F1F7E9A7BB5361A65 /* Headers */,
+				B104F6C520C916AEDD78B6BCD0BE1E30 /* Sources */,
+				8E68C1ABDCA41ADE7A2F20583C56A86E /* Frameworks */,
+				D69AB3C17CD9286EED017C2603989C8B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -358,8 +361,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FCD926829F372135785D2243F42320B0 /* PBXTargetDependency */,
-				08E0A089EB4FD1947798A60CD2B2F8AA /* PBXTargetDependency */,
+				B718BCC220F90D6BA7466973600AAF17 /* PBXTargetDependency */,
+				644323C48F48B0CE279A0F99FABB2B11 /* PBXTargetDependency */,
 			);
 			name = "Pods-BubblePickerDemo";
 			productName = Pods_BubblePickerDemo;
@@ -398,14 +401,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33A0CD7B6748E44741D5DEF5E26E01EB /* Resources */ = {
+		A3B7587B59BE3091BD5F90EC8EB68B14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3B7587B59BE3091BD5F90EC8EB68B14 /* Resources */ = {
+		D69AB3C17CD9286EED017C2603989C8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,39 +449,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0009B31BCC20E95B6FF211A9ADD1E7E /* Sources */ = {
+		B104F6C520C916AEDD78B6BCD0BE1E30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E8C14B87193FD0667A90F983160339 /* BubblePickerLabelNode.swift in Sources */,
-				2B6F4DAC9567A7F0EB358CFDED599FA2 /* BubblePickerNode.swift in Sources */,
-				E47E10C4EB2E37D33661ED03BA4C3F40 /* BubblePickerScene.swift in Sources */,
-				101C9432250542A294CDB602C601306F /* BubblePickerView.swift in Sources */,
-				C255CD94065CF1DDDD3690A22A5AB70D /* SpriteBubblePicker-dummy.m in Sources */,
+				84583088C46238A9E35DF60B529B2C8D /* BubblePickerLabelNode.swift in Sources */,
+				EAC9E41D0D87084C65C25201ACF81558 /* BubblePickerNode.swift in Sources */,
+				5DF945215D18AACF25A178DA1941D614 /* BubblePickerScene.swift in Sources */,
+				E6905A5D54FEA8E6A28D07C4BE5D09FD /* BubblePickerScene+Animate.swift in Sources */,
+				8727C7B082C008D7B21E754EF4352606 /* BubblePickerView.swift in Sources */,
+				354F075F18CF64D7EF347DF3D1527815 /* SpriteBubblePicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08E0A089EB4FD1947798A60CD2B2F8AA /* PBXTargetDependency */ = {
+		644323C48F48B0CE279A0F99FABB2B11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLogger;
 			target = 7E6DA1B7311FF96C1EA57DBDA2D14754 /* SwiftLogger */;
-			targetProxy = 086323CF855C90557C0A11A6C04C2C64 /* PBXContainerItemProxy */;
+			targetProxy = 861545C75CC3DF1860E03E8A1E320D61 /* PBXContainerItemProxy */;
 		};
-		FCD926829F372135785D2243F42320B0 /* PBXTargetDependency */ = {
+		B718BCC220F90D6BA7466973600AAF17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SpriteBubblePicker;
 			target = 7CE06819C7D917F014E538B19CED8DB0 /* SpriteBubblePicker */;
-			targetProxy = F07A7585F1BF3CFA9F7F389AC2227A41 /* PBXContainerItemProxy */;
+			targetProxy = 25110B598067C899BFAFAFAAC132903E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0039A69E9BDDA13957FFD3E5802C8E4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62F429E3128AF98A6A38C0309F5CA573 /* SwiftLogger.release.xcconfig */;
+			baseConfigurationReference = 37960662D858F15C5E6797529A0742CD /* SwiftLogger.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,6 +559,46 @@
 			};
 			name = Debug;
 		};
+		33B05161CDCABAB063AF0C35125BCE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75F812FB46FB67FFC81D830510489A2 /* SpriteBubblePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker.modulemap";
+				PRODUCT_MODULE_NAME = SpriteBubblePicker;
+				PRODUCT_NAME = SpriteBubblePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5A7EBC91DB548AA7CEF5E276C4D8ECA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3258A0780ECC5ED1A92168D516DACE1 /* Pods-BubblePickerDemo.release.xcconfig */;
@@ -594,45 +638,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		71FA56B6A2DDE76FB7F76D4A96B8CF1D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFCC009084E1D9D3AB5B78FCCDAE6C6E /* SpriteBubblePicker.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SpriteBubblePicker/SpriteBubblePicker.modulemap";
-				PRODUCT_MODULE_NAME = SpriteBubblePicker;
-				PRODUCT_NAME = SpriteBubblePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -764,7 +769,7 @@
 		};
 		B61973565EA6242F23BE72ACEDB91A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D24F66B5F4804485A63C93B789F5D387 /* SwiftLogger.debug.xcconfig */;
+			baseConfigurationReference = B5E52986C7416C2FEF20807E6731AF0B /* SwiftLogger.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -801,9 +806,9 @@
 			};
 			name = Debug;
 		};
-		E22BC298D2BD1FADF6A44AA945BF7029 /* Release */ = {
+		F824D578AAB205CCAFCFE540A9E5EEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 116BB34202802CD52F1BC7A10D56512E /* SpriteBubblePicker.release.xcconfig */;
+			baseConfigurationReference = 7DB72D88A0A821D8F12BA1E8E1D528AA /* SpriteBubblePicker.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -835,11 +840,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -862,11 +866,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A58219844A639CC08ABD058BCCE027B4 /* Build configuration list for PBXNativeTarget "SpriteBubblePicker" */ = {
+		B17538335F2DC784079D60EBA422117F /* Build configuration list for PBXNativeTarget "SpriteBubblePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FA56B6A2DDE76FB7F76D4A96B8CF1D /* Debug */,
-				E22BC298D2BD1FADF6A44AA945BF7029 /* Release */,
+				F824D578AAB205CCAFCFE540A9E5EEFF /* Debug */,
+				33B05161CDCABAB063AF0C35125BCE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
